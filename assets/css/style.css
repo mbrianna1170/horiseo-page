@@ -59,6 +59,8 @@ p {
     background-position: center;
 }
 
+/*main-section area starts*/
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,7 +71,36 @@ p {
     margin-left: 25px;
 }
 
-.benefits {
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;  
+    color: #ffffff;
+}
+
+.main-section img {
+    max-height: 200px;
+}
+
+.main-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*side-bar area starts*/
+
+.side-bar  {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -80,72 +111,18 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.main-section {
+.side-bar h3 {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    text-align: center;
 }
-.main-section img {
-    max-height: 200px;
+
+.side-bar img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-.main-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
+/*foot starts*/
 
 .footer {
     padding: 30px;
